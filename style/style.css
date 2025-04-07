@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ffe5ec, #ffc2d1);
+    color: #d6336c;
+    text-align: center;
+  }
+  
+  .container {
+    padding: 50px 20px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .cake-img {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+  }
+  
+  .nav-buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    background-color: #ff90b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+  }
+  
+  .nav-buttons a:hover {
+    background-color: #ff6392;
+  }
+  .memories-container {
+    background: linear-gradient(to right, #fbcfe8, #f5d0fe);
+    padding: 50px 20px;
+    text-align: center;
+    color: #6b21a8;
+  }
+  
+  .memories-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  .slideshow {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .slideshow img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  
+  .slides {
+    display: none;
+  }
+  
+  .fade {
+    animation: fade 1.5s ease-in-out;
+  }
+  
+  @keyframes fade {
+    from {opacity: 0.4}
+    to {opacity: 1}
+  }
+ 
+
+ 
+
+
+  
